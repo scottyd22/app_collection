@@ -102,7 +102,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://user-images.githubusercontent.com/16120874/178642745-56947340-b1e6-483f-a6a7-155a76e652c8.gif'
     } else {
-      image = 'rlately_static.png'
+      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/rlately_static.PNG?token=GHSAT0AAAAAAB2LFBUJDOXGU4HNKGJFU4Q2Y257SOQ'
     }
     
     HTML(
@@ -131,7 +131,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://raw.githubusercontent.com/scottyd22/dream_team/master/www/Scrollytell%20GIF-downsized_large.gif'
     } else {
-      image = 'dreamteam_static.png'
+      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/dreamteam_static.PNG?token=GHSAT0AAAAAAB2LFBUID5U5QOLTIOUMUW7WY257TKQ'
     }
     
     HTML(
@@ -189,7 +189,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://media.giphy.com/media/Ru8JbDNZXtyN2o2RpA/giphy.gif'
     } else {
-      image = 'nbafinals_static.png'
+      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/nbafinals_static.PNG?token=GHSAT0AAAAAAB2LFBUI52OWZV7WNB47DWDAY257T7A'
     }
     
     HTML(
