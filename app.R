@@ -71,7 +71,8 @@ server <- function(input, output, session) {
   # header ----
   output$header = renderUI({
     
-    headshot = '<img src = "headshot2.png" width = "150px" style="border-radius: 50%;">'
+    # headshot = '<img src = "headshot2.png" width = "150px" style="border-radius: 50%;">'
+    headshot = '<img src = "headshot_2023_color.jpg" width = "150px" style="border-radius: 5%;">'
     
     welcome = "<h1><b>Scott Davis' App Collection</b></h1><h4><br>Thanks for stopping by to check out my collection of Shiny apps!<br>All are hosted on <a href='https://www.shinyapps.io/' target='_blank'>shinyapps.io <i class='fa fa-external-link'></i></a>.<br>
     <br>Click on a link below to launch the app or its associated GitHub repo.<br>
@@ -102,7 +103,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://user-images.githubusercontent.com/16120874/178642745-56947340-b1e6-483f-a6a7-155a76e652c8.gif'
     } else {
-      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/rlately_static.PNG?token=GHSAT0AAAAAAB2LFBUJDOXGU4HNKGJFU4Q2Y257SOQ'
+      image = 'rlately_static.png'
     }
     
     HTML(
@@ -131,7 +132,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://raw.githubusercontent.com/scottyd22/dream_team/master/www/Scrollytell%20GIF-downsized_large.gif'
     } else {
-      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/dreamteam_static.PNG?token=GHSAT0AAAAAAB2LFBUID5U5QOLTIOUMUW7WY257TKQ'
+      image = 'dreamteam_static.png'
     }
     
     HTML(
@@ -158,7 +159,7 @@ server <- function(input, output, session) {
     message = 'Test your knowledge of the popular TV series <i>The Office</i> (U.S. version) with this mobile-friendly trivia app.'
     
     if(input$gif == T) {
-      image = 'https://ephmedia.giphy.com/c3421bc1-0a8c-48f5-8987-777a4815dbb7.gif'
+      image = 'https://media.giphy.com/media/f4knVmpNNtlhykXUlF/giphy.gif'
     } else {
       image = 'https://raw.githubusercontent.com/scottyd22/the_office/master/www/iphone.PNG'
     }
@@ -189,7 +190,7 @@ server <- function(input, output, session) {
     if(input$gif == T) {
       image = 'https://media.giphy.com/media/Ru8JbDNZXtyN2o2RpA/giphy.gif'
     } else {
-      image = 'https://raw.githubusercontent.com/scottyd22/app_collection/main/www/nbafinals_static.PNG?token=GHSAT0AAAAAAB2LFBUI52OWZV7WNB47DWDAY257T7A'
+      image = 'nbafinals_static.png'
     }
     
     HTML(
